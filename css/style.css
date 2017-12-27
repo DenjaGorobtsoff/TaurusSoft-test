@@ -1,0 +1,144 @@
+a{
+    text-decoration: none;
+    color: #a2371a;
+}
+a:hover{
+    color:#0000cc;
+}
+
+
+
+
+
+.btn_menu{
+    width: 100%;
+    height: 40px;
+}
+.button_section {
+
+    height: 20px;
+    width: 110px;
+    /*padding-top: 10px;*/
+    background: #f5de91;
+    text-align: center;
+    border: 1px solid #000101;
+    border-radius: 5px;
+    font-size: 18px;
+    float: left;
+    margin:0 20px 20px;
+
+}
+.button_section:hover{
+    background: #f5e700;
+    cursor: pointer;
+
+}
+
+.btn_mng{
+    /*height: 80px;
+    width: 100px;*/
+    padding-top: 10px;
+    text-decoration: none;
+
+}
+#map{
+    height: 500px;
+    width: 100%;
+}
+.map_content{
+    height: 103px;
+    width: 260px;
+}
+.map_content .image img{
+    height: 97%;
+}
+.map_content .image{
+    height: 100%;
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+}
+.map_content .inform{
+    float: left;
+    font-weight: 600;
+    width: 150px;
+    padding-top: 10px;
+}
+hr{
+    width: 90%;
+}
+
+/*-----------MANAGE USERS ------------------------------*/
+
+.table_users{
+    width: 80%;
+    margin:0 0 20px 20px;
+    float: left;
+
+}
+table{
+    width: 80%;
+    border: 1px solid #000101;
+    border-collapse: collapse;
+}
+tr{
+    text-align: center;
+}
+td {
+    text-align: center; /* Выравнивание по левому краю */
+    padding: 5px; /* Поля вокруг содержимого ячеек */
+    border: 1px solid black; /* Граница вокруг ячеек */
+}
+th {
+    text-align: center; /* Выравнивание по левому краю */
+    padding: 5px; /* Поля вокруг содержимого ячеек */
+    border: 1px solid black; /* Граница вокруг ячеек */
+}
+thead{
+    background: #cccccc;
+}
+tbody tr td img{
+    width: 60px;
+}
+.btn_engine{
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    border: 1px solid #1b5869;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 5px;
+    background: #f5de91;
+}
+.btn_engine:hover{
+    background: #f5e700;
+    cursor: pointer;
+}
+
+/*--------------- ADD USER ------------*/
+.add_users{
+    width: 60%;
+    height: 400px;
+    margin-left: 80px;
+}
+.add_users input{
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #000101;
+}
+.add_users button{
+    margin-top: 20px;
+    float: right;
+    background: #ffe89b;
+    width: 80px;
+    border-radius: 5px;
+    border: 1px solid #000101;
+}
+.add_users button:hover{
+    background: #f5e700;
+    cursor: pointer;
+}
+h2{
+    margin-left: 80px;
+}
